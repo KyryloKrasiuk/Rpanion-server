@@ -13,5 +13,5 @@ else
     ninja -C build
 fi
 
-sudo ninja -C build install
+ninja -C build install
 cd ../../deploy
