@@ -4,6 +4,8 @@ import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'startbootstrap-simple-sidebar/dist/css/styles.css'
 
+import 'bootstrap/dist/js/bootstrap.js'
+
 import AppRouter from './AppRouter'
 import * as serviceWorker from './serviceWorker'
 

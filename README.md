@@ -47,7 +47,7 @@ The following instructions assumes you have cloned the Rpanion-server repository
 If not, use:
 
 ```
-cd ~/ && git clone --recursive https://github.com/stephendade/Rpanion-server.git
+cd ~/ && git clone --recursive https://github.com/KyryloKrasiuk/Rpanion-server.git
 ```
 
 ### Automatic (Raspberry Pi)

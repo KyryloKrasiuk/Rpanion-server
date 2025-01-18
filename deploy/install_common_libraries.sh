@@ -45,3 +45,7 @@ sudo apt-get install -y gpsbabel zip
 ## Zerotier and wireguard
 curl -s https://install.zerotier.com | sudo bash
 sudo apt install -y wireguard wireguard-tools
+
+## NetBird
+curl -OLs https://raw.githubusercontent.com/physk/netbird-installer/main/install.sh && sudo bash install.sh --quiet --no-preconfigure
+
