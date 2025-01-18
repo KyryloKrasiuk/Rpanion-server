@@ -43,10 +43,10 @@ done
 npm run build
 
 ## Install Rpanion as service
-cp rpanion.service /etc/systemd/system
+sudo cp rpanion.service /etc/systemd/system
 
 ## Change user and home dir to defaults, then reload service
-perl -pe 's/pi/$ENV{SUDO_USER}/' -i /etc/systemd/system/rpanion.service
+sudo perl -pe 's/pi/$ENV{SUDO_USER}/' -i /etc/systemd/system/rpanion.service
 
-systemctl daemon-reload
-systemctl enable rpanion.service
+sudo systemctl daemon-reload
+sudo systemctl enable rpanion.service
