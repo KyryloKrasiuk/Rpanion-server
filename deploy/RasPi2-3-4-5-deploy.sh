@@ -65,4 +65,4 @@ sudo sed -i.bak -e '/^\[main\]/aauth-polkit=false' /etc/NetworkManager/NetworkMa
 ## For wireguard. Must be installed last as it messes the DNS resolutions
 sudo apt install -y resolvconf
 
-sudo reboot
+#sudo reboot
