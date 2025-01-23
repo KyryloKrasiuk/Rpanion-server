@@ -24,4 +24,4 @@ cd ./deploy
 
 ## and restart service
 echo "---Upgrade Complete---"
-systemctl restart rpanion.service
+sudo systemctl restart rpanion.service
